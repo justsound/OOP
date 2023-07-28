@@ -26,7 +26,7 @@ public class Main {
         teams.sort(rateAndBudgetComparator);
 
         for (Team team: teams) {
-            System.out.println(teams);
+            System.out.println(team);
         }
     }
 }
